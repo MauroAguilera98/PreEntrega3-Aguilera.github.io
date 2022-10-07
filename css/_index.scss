@@ -1,0 +1,62 @@
+
+main {
+    background-image: url(../img/wintery-sunburst.svg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+footer {
+    div {
+        h2 {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+}
+
+.index__titular {
+    h1 {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        
+    }
+}
+
+.index__metodologia {
+    h4 {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bold;
+    }
+}
+
+.index__cards {
+    width: 100%; 
+    height: 100%;
+    h4 {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.index__cards:hover {
+    box-shadow: inset;
+}
+
+.index__muestra {
+    h4 {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+}
+
+.index__beneficios {
+    h2 {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    p {
+        font-style: oblique;
+        font-size: 1rem;
+    }
+}
+
+
