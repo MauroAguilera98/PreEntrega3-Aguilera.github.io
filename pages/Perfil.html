@@ -64,8 +64,8 @@
     </header>
 
         <!-- Principal -->
-    <main class="perfil__main">
-        <div class="container">
+    <main class="perfil__main pt-2">
+        <div class="container-fluid">
             <section class="perfil__section">
                 <div class="perfil__section-img">
                     <img src="#" alt="Imagen de Usuario">
@@ -75,46 +75,41 @@
                     <p>Aquí podrá controlar su saldo, cualquier problema no dude en contactarnos</p>
                 </div>
                 <div class="perfil__section-map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52406.96502058869!2d-58.38654679377303!3d-34.82014604065114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32b60c5d6feed%3A0x409015f62203011f!2sSODERIA%20EL%20SOL!5e0!3m2!1ses-419!2sar!4v1662076909492!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52406.96502058869!2d-58.38654679377303!3d-34.82014604065114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32b60c5d6feed%3A0x409015f62203011f!2sSODERIA%20EL%20SOL!5e0!3m2!1ses-419!2sar!4v1662076909492!5m2!1ses-419!2sar"
+                    style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></iframe>
                 </div>
             </section>
         
-            <TABLE BORDER>
+            <TABLE class="table table-dark" BORDER>
                     <thead>
                         <TR>
-                            <TH>Mis Datos</TH>
+                            <TH scope="col">Mis Datos</TH>
+                            <th scope="col">Nombre completo <input type="text" alt="nombre+apellido"></th>
+                            <th scope="col">calle-num-localidad <input type="text"></th>
+                            <th scope="col">plan contratado <input type="text"></th>
+                            <th scope="col">remito F/C <input type="text"></th>
+                            <th scope="col">Dias pactados <input type="text"></th>
+                            <th scope="col">Marca dispenser F/C y numero ID<input type="text" alt=""></th>
                         </TR>
                     </thead>
                     <tbody>
-                        <TR>
-                            <TH>Nombre completo <input type="text" alt="nombre+apellido"></TH>
-                            <TH>calle-num-localidad <input type="text"></TH>
-                            <TH>plan contratado <input type="text"></TH>
-                            <TH>remito F/C <input type="text"></TH>
-                            <TH>Dias pactados <input type="text"></TH>
-                            <TH>Marca dispenser F/C y numero ID<input type="text" alt=""></TH>
-                        </TR>
-                    </tbody>
-                    <thead>
-                        <TR>
-                            <TH>Tabla De Control</TH>
-                        </TR>
-                    </thead>
-                    <tbody>
-                        <TR>
-                            <Th>Día/mes/año</Th> <Th>Bidones Comprados</Th> <Th>Confirmación</Th> <Th>Aporte</Th> <th>Saldo</th><th>Facturas</th>
+                        <TR class="table-active">
+                            <Th scope="row">Día/mes/año</Th> <TD>14/08/22</TD> <TD>21/08/22</TD> <TD>28/08/22</TD> <TD>04/09/22</TD>
                         </TR>   
                         <TR>
-                            <TD>14/08/22</TD> <TD>1</TD> <TD>G</TD> <TD>20$</TD> <TD>300</TD> <TD>-</TD>
+                            <Th scope="row">Bidones Comprados</Th> <TD>1</TD> <TD>2</TD> <TD>0</TD> <TD>1</TD> 
                         </TR>
                         <TR>
-                            <TD>21/08/22</TD> <TD>2</TD> <TD>C</TD> <TD>0$</TD> <TD>940</TD> <TD>-</TD>
+                            <Th scope="row">Confirmación</Th> <TD>G</TD> <TD>C</TD> <TD>G</TD> <TD>G</TD> 
                         </TR>
                         <TR>
-                            <TD>28/08/22</TD> <TD>0</TD> <TD>G</TD> <TD>900$</TD> <TD>40</TD> <TD>-</TD>
+                            <Th scope="row">Aporte</Th>  <TD>20$</TD> <TD>0$</TD>  <TD>900$</TD> <TD>0$</TD>
                         </TR>
                         <TR>
-                            <TD>04/09/22</TD> <TD>1</TD> <TD>G</TD> <TD>0$</TD> <TD>360</TD> <TD>-</TD>
+                            <th scope="row">Saldo</th>  <TD>300</TD> <TD>940</TD> <TD>40</TD> <TD>360</TD> 
+                        </TR>
+                        <TR>
+                            <th scope="row">Facturas</th> <TD>-</TD> <TD>-</TD> <TD>-</TD> <TD>-</TD>
                         </TR>
                     </tbody>
                 </TABLE>
